@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20%;
+    color: #333;
+    position: relative;
+    z-index: 0;
+    font-size: x-large;
+    height: auto;
+    font-weight: bold;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../img/maxresdefault.jpg') no-repeat center center fixed;
+    /* no se repita la imagen */
+    background-size: cover;
+    opacity: 0.3;
+    /* control transparencia */
+    z-index: -1;
+}
+
+h1 {
+    color: #0066cc;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0077aa;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+li {
+    margin-bottom: 20px;
+    /* Espacio de 10px debajo de cada <li> */
+    font-style: oblique;
+}

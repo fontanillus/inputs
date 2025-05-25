@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiencia</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <br>
+  <p class="color">2. Crea un programa que solicite al usuario/a que introduzca su nombre y el número de años que lleva
+    trabajando en una empresa.</p>
+  <p class="color">Después muestra por pantalla su nivel de experiencia, según la siguiente tabla:</p>
+  <br>
+
+  <ul class="color">
+    <li>Menos de 2 años: Nivel principiante.</li>
+    <li>Entre 2 y 4 años: Nivel intermedio.</li>
+    <li>Más de 4 y hasta 7 años: Nivel avanzado.</li>
+    <li>Más de 7 y hasta 10 años: Nivel experto.</li>
+    <li>Más de 10 años: Nivel Gurú.</li>
+  </ul>
+  <br>
+  <br>
+  <form>
+    <fieldset>
+      <legend>Evaluación de la experiencia de un empleado</legend>
+      <br>
+      <p>
+        <label for="nombre">Teclee su nombre completo</label>
+        <input type="text" id="nombre" required placeholder="Ej. Celine Dior">
+      </p>
+      <br>
+      <p>
+        <label for="anys">Teclee sus años de experiencia laboral</label>
+        <input type="number" id="anys" required>
+      </p>
+      <br>
+      <button type=button onclick="calcularNivel()">Calcular Nivel</button>
+      <p id="resultado"></p>
+      <br>
+      <div>
+        <img src="./img/nivel.png" alt="foto">
+      </div>
+    </fieldset>
+  </form>
+  <script src="js/nivel.js"></script>
+</body>
+
+</html>

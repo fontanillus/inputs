@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: o auto;
+    color: #333;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/numbers.jpg);
+
+
+}
+
+div {
+    width: 60%;
+    margin-top: 0.1px;
+    border: 8px solid blue;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 35px;
+    color: whitesmoke;
+    text-shadow: 2px 2px blue;
+    font-weight: bold;
+    background-image: url(../img/numeros.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 16%;
+}
+
+div img,
+form img {
+    opacity: 0.5;
+    /* no% only number entre 0 y 1 opacity */
+}
+
+.posicion {
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 2px 2px blue;
+    color: whitesmoke;
+    text-align: center;
+}
+
+button {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: blue;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabra Bonita</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <br>
+    <p>3. Los estudios lingüísticos modernos dicen que las palabras más bonitas del diccionario son aquellas que
+        contienen 9 letras y empiezan por la letra 'H', o bien, contienen 5 letras y empiezan por la letra 'P'. Haz un
+        programa que pida una palabra y determine si es bonita o no (según el patrón explicado previamente).</p>
+    <p>Para ello podéis usar los siguientes métodos de String:</p>
+    <br>
+    <ul>
+        <li><b>length</b> longitud de la palabra</li>
+        <li><b>charAt(posicion)</b> devuelve la letra en una posición,</li>
+        <li><b>toUpperCase() y .toLowerCase()</b>: transforma la palabra en mayúscula/minúsculas respectivamente
+            (parasimplicar el IF)</li>
+    </ul>
+    <img src="./img/decoracion.png" alt="foto">
+    <div class="color">
+        <form>
+            <h3>¿Quieres saber si una palabra es bonita?</h3>
+            <p>
+                <label for="palabra">Por favor teclea una palabra</label>
+                <input type="text" id="palabra">
+            </p>
+            <button type="button" onclick="verificarPalabra()">Verificar si una palabra es bonita o no</button>
+            <p id="resultadoPalabra"></p>
+        </form>
+    </div>
+
+    <script src="js/palabra.js"></script>
+
+
+</body>
+
+</html>
